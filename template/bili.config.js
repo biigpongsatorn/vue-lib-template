@@ -6,5 +6,6 @@ module.exports = {
   css: true,
   plugins: [
     vue({ css: true })
-  ]
+  ],
+  outDir: 'lib'
 }
