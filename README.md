@@ -48,7 +48,7 @@ $ npm run build:demo
 $ npm run build:lib
 ```
 
-- Publishing to npm.
+- Publishing to npm. (Please run `npm run build:lib` and `npm version patch` before publish to NPM)
 ``` bash
 $ npm publish
 ```
