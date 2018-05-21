@@ -1,6 +1,8 @@
 <template>
   <div>
-    Hello world, Welcome to my component 👏🏻 
+    <h1>Hello World 🌍 </h1><br>
+    <span> Welcome to {{ name }} 👏🏻 </span><br>
+    <span>📝 {{ description }}</span>
   </div>
 </template>
 
