@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "{{ author }}",
   "license": "{{ license }}",
-  "main": "dist/index.min.js",
+  "main": "dist/{{ name }}.min.js",
   "files": [
     "dist"
   ],
