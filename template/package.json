@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "author": "{{ author }}",
   "license": "{{ license }}",
-  "main": "dist/{{ name }}.min.js",
+  "main": "lib/{{ name }}.min.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "rm -rf ./dist && bili src/index.vue",
-    "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build:lib": "rm -rf ./lib && bili src/index.vue",
+    "build:demo": "rm -rf ./dist && cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "vue": "^2.5.11"

@@ -1,5 +1,5 @@
-# vue-component-generator
-🛠 Vue CLI for generate component/library for building and publishing to npm with [webpack-simple](https://github.com/vuejs-templates/webpack-simple) &amp; [bili](https://github.com/egoist/bili)
+# vue-lib-template
+🛠 Simple template for building and publishing component/library to [NPM](https://www.npmjs.com/), Base on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) & [bili](https://github.com/egoist/bili)
 
 # 💻 Usage
 
@@ -8,9 +8,9 @@
 $ npm install -g vue-cli 
 ```
 
-- Generate component/library
+- Initial component/library
 ``` bash
-$ vue init biigpongsatorn/vue-component-generator my-project
+$ vue init biigpongsatorn/vue-lib-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -43,12 +43,12 @@ my-project
 $ npm run build:demo
 ```
 
-- Building package.
+- Building component/library.
 ``` bash
-$ npm run build
+$ npm run build:lib
 ```
 
-- Publishing package.
+- Publishing to npm.
 ``` bash
 $ npm publish
 ```

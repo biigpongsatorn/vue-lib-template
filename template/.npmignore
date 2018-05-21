@@ -1,5 +1,5 @@
 demo/
-dist-demo/
+dist/
 node_modules/
 src/
 static/
