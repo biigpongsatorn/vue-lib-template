@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <{{ name }}/>
+    <MyComponent/>
   </div>
 </template>
 
 <script>
-import {{ name }} from '../src/index.vue'
+import MyComponent from '../src'
 
 export default {
   name: 'app',
-  components: { {{ name }} }
+  components: { MyComponent }
 }
 </script>
 
