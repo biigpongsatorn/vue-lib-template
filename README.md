@@ -2,7 +2,7 @@
 🛠 A simple template for building and publishing Vue component/library as a opensource, Base on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) & [bili](https://github.com/egoist/bili)
 
 # 💡 Feature
-- Light weight bundled file.
+- Light weight template.
 - Zero config bundler.
 - Quick prototyping.
 - This template is Vue 2.0 compatible. 
