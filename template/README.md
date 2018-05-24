@@ -12,7 +12,7 @@ npm install
 npm run dev
 
 # build your demo page for production
-npm run build:demo
+npm run build:example
 
 # pack your component/library with bili for publishing to npm
 npm run build
