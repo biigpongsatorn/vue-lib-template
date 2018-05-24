@@ -4,6 +4,7 @@
 # 💡 Feature
 - Light weight template.
 - Zero config bundler.
+- Included biuld with minification.
 - Quick prototyping.
 - This template is Vue 2.0 compatible. 
 - Included demo page.
