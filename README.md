@@ -1,6 +1,13 @@
 # vue-lib-template
 🛠 A simple template for building and publishing Vue component/library as a opensource, Base on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) & [bili](https://github.com/egoist/bili)
 
+# 💡 Feature
+- Light weight bundled file.
+- Zero config bundler.
+- Quick prototyping.
+- This template is Vue 2.0 compatible. 
+- Included demo page.
+
 # 💻 Usage
 
 - Install [vue-cli](https://github.com/vuejs/vue-cli)
@@ -21,7 +28,7 @@ $ npm run dev
 ```
 my-project
 │
-├── demo
+├── example
 │   ├── App.vue
 │   └── main.js
 ├── src
@@ -40,7 +47,7 @@ my-project
 # 🏛 Building
 - Building demo page.
 ``` bash
-$ npm run build:demo
+$ npm run build:example
 ```
 
 - Building component/library.
