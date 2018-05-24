@@ -1,5 +1,5 @@
 # vue-lib-template
-🛠 Simple template for building and publishing component/library to [NPM](https://www.npmjs.com/), Base on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) & [bili](https://github.com/egoist/bili)
+🛠 A simple template for building and publishing Vue component/library as a opensource, Base on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) & [bili](https://github.com/egoist/bili)
 
 # 💻 Usage
 
